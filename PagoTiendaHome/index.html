@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pago Tienda</title>
+        <meta name="description" content="Compra tus productos con nosotros">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#7952b3">
+        <!-- Bootstrap  CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <!-- Jquery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark  fixed-top" style="background-color: #640988">
+        <div class="container-fluid">
+            <div class="col-sm">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/logo.svg" style="width: auto; height: 50px"/>
+                </a>
+            </div>
+
+            <div class="col-sm d-flex justify-content-center">
+                <ul class="navbar-nav mr-auto">
+                    <div class="collapse navbar-collapse">
+                        <li class="nav-item active">
+                            <a class="nav-link text-light" href="#">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Tiendas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Contacto</a>
+                        </li>
+                    <div>
+                </ul>
+            </div>
+
+            <div class="col-sm">
+                <ul class="navbar-nav mb-2 mb-md-0" style="margin-left: auto">
+                    <div class="collapse navbar-collapse" style="max-width: 320px; margin-left: auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#"><i class="fa fa-search"></i></a>
+                        </li>
+                        <p class="text-light mb-0">|</p>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#"><i class="fa fa-shopping-cart"></i></a>
+                        </li>
+
+                        <li class="nav-item mx-1" >
+                            <a href="#" style="max-height: 30px" class="nav-link bg-light text-dark d-flex flex-nowrap justify-content-center align-items-center rounded">
+                                <i class="fa fa-user"></i>
+                                <p class="mb-0 p-2">Ingresar</p>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a href="#" style="max-height: 30px" class="nav-link bg-light text-dark d-flex flex-nowrap justify-content-center align-items-center rounded">
+                                <i class="far fa-hand-point-right"></i>
+                                <img src="./assets/hand-point-right.svg" style="width: auto; height: 18px"/>
+                                <p class="mb-0 p-2">Registrarme</p>
+                            </a>
+                        </li>
+                        <!--<li class="nav-item">
+                            <a class="nav-link text-light" href="#"><i class="fa fa-shopping-cart"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#"><i class="fa fa-heart"></i></a>
+                        </li>-->
+                    </div>
+                    <li class="nav-item dropdown navbar-toggler">
+                        <button style="max-width: 50px" class="btn nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <ul class="dropdown-menu" style="margin-top: 10px;" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-home"></i> Tiendas</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-user"></i> Perfil</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-shopping-cart"></i> Carrito</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-heart"></i> Deseos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+        <!-- End Navbar -->
+
+        <div class="main-image-container">
+            <img
+                src="./assets/1.jpg"
+                class="bd-placeholder-img" width="100%" height="100%"
+                style="object-fit: cover;"
+                aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"
+            >
+                <rect width="100%" height="100%" fill="#777"></rect>
+            </img>
+            <div class="container">
+                <div class="main-image-container-caption text-end">
+                    <h1>Otro buen ejemplo.</h1>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p><a class="btn btn-lg" style="color: white; background-color: #6610f2;" href="#" role="button">Aprovecha el descuento</a></p>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    </body>
+</html>
